@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName": "tyler",
+        "lastName": "beezer",
+        "email": "tmoney@gmail.com",
+        "favoriteColor": "Blue",
+        "birthday": "23/06/99"
+    },
+    "contact2": {
+        "firstName": "sam",
+        "lastName": "running",
+        "email": "smoney@gmail.com",
+        "favoriteColor": "clear",
+        "birthday": "14/2/00"
+    },
+    "contact3": {
+        "firstName": "ethan",
+        "lastName": "mechanic",
+        "email": "emoney@gmail.com",
+        "favoriteColor": "HotrodRed",
+        "birthday": "29/08/98"
+    }
+}
