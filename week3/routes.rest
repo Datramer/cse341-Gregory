@@ -1,0 +1,30 @@
+GET http://localhost:8080/contacts
+# the request above returns a json object with all professional data for Nathan Birch. No database is connected.
+###
+GET https://week2jgreg.onrender.com/contacts
+###
+GET http://localhost:8080/contacts/644d902df06c6d772d6ba097
+###
+POST http://localhost:8080/contacts
+content-Type: application/json
+
+{
+    "firstName": "walt",
+    "lastName": "emerson",
+    "email": "waltemo22@byu.biz",
+    "favoriteColor": "orange",
+    "birthday": "29/11/1999"
+}
+###
+PUT http://localhost:8080/contacts/64567a35999ad249488c36b2
+content-Type: application/json
+
+{
+    "firstName": "Fred",
+    "lastName": "garba",
+    "email": "fredster2@byu.gov",
+    "favoriteColor": "hotpink",
+    "birthday": "9/12/1989"
+}
+###
+DELETE http://localhost:8080/contacts/64567a35999ad249488c36b2
