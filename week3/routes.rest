@@ -29,7 +29,8 @@ content-Type: application/json
 ###
 DELETE http://localhost:8080/contacts/64567a35999ad249488c36b2
 ###
-POST https://week3jgregory.onrender.com
+POST https://week3jgregory.onrender.com/contacts/
+content-Type: application/json
 {
     "firstName": "walt",
     "lastName": "emerson",
