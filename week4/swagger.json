@@ -5,10 +5,10 @@
     "description": "Temple API",
     "version": "1.0.0"
   },
-  "host": "https://week4jgregory.onrender.com",
+  "host": "week4jgregory.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
