@@ -8,7 +8,7 @@
   "host": "https://week4jgregory.onrender.com",
   "basePath": "/",
   "schemes": [
-    "https"
+    "http"
   ],
   "paths": {
     "/api-docs": {
