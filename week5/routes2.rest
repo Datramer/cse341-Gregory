@@ -18,3 +18,24 @@ content-Type: application/json
         "type": "Creature",
         "subtype": "Bear"
 }
+###
+GET https://week5-77xd.onrender.com/cards
+###
+GET https://week5-77xd.onrender.com/cards/646911bf7c3e077815e8b022
+###
+POST https://week5-77xd.onrender.com/cards
+content-Type: application/json
+
+{
+        "name":"Runeclaw Bear",
+        "power":"2",
+        "toughness": "2",
+        "mana_Cost": "2",
+        "artist": "Jesper Ejsing",
+        "price": ".03",
+        "rarity": "common",
+        "set": "Magic 2012",
+        "rulestext": "n/a",
+        "type": "Creature",
+        "subtype": "Bear"
+}

@@ -6,7 +6,7 @@ const doc = {
     description: 'cardlist',
   },
   host: 'https://week5-77xd.onrender.com',
-  schemes: ['https'],
+  schemes: ['https','http'],
 };
 
 const outputFile = './swagger.json';
