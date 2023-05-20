@@ -1,0 +1,20 @@
+GET http://localhost:8080/cards
+###
+GET http://localhost:8080/cards/646911bf7c3e077815e8b022
+###
+POST http://localhost:8080/cards
+content-Type: application/json
+
+{
+        "name":"Runeclaw Bear",
+        "power":"2",
+        "toughness": "2",
+        "mana_Cost": "2",
+        "artist": "Jesper Ejsing",
+        "price": ".03",
+        "rarity": "common",
+        "set": "Magic 2012",
+        "rulestext": "n/a",
+        "type": "Creature",
+        "subtype": "Bear"
+}
