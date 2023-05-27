@@ -67,3 +67,24 @@ content-Type: application/json
         "type": "Creature",
         "subtype": "Bear"
 }
+###
+put https://week5-77xd.onrender.com/cards/6469187894cace42ab4e9b32
+ content-Type: application/json
+
+{
+        "name":"Grizzly Bear",
+        "power":"2",
+        "toughness": "2",
+        "mana_Cost": "2",
+        "artist": "Jesper Ejsing",
+        "price": ".03",
+        "rarity": "common",
+        "set": "Magic 2012",
+        "rulestext": "n/a",
+        "type": "Creature",
+        "subtype": "Bear"
+}
+
+###
+DELETE  https://week5-77xd.onrender.com/cards/646911bf7c3e077815e8b022
+
