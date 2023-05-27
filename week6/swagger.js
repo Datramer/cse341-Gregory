@@ -5,7 +5,7 @@ const doc = {
     title: 'My API',
     description: 'cardlist',
   },
-  host: 'week5-77xd.onrender.com',
+  host: 'jgregoryweek6.onrender.com',
   schemes: ['https'],
 };
 

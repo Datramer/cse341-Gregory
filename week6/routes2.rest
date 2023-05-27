@@ -47,11 +47,11 @@ DELETE  http://localhost:8080/cards/646911bf7c3e077815e8b022
 
 
 ###
-GET https://week5-77xd.onrender.com/cards
+GET https://jgregoryweek6.onrender.com/cards
 ###
-GET https://week5-77xd.onrender.com/cards/646911bf7c3e077815e8b022
+GET https://jgregoryweek6.onrender.com/646911bf7c3e077815e8b022
 ###
-POST https://week5-77xd.onrender.com/cards
+POST https://jgregoryweek6.onrender.com/cards
 content-Type: application/json
 
 {
@@ -68,7 +68,7 @@ content-Type: application/json
         "subtype": "Bear"
 }
 ###
-put https://week5-77xd.onrender.com/cards/6469187894cace42ab4e9b32
+put https://jgregoryweek6.onrender.com/cards/6469187894cace42ab4e9b32
  content-Type: application/json
 
 {
@@ -86,5 +86,5 @@ put https://week5-77xd.onrender.com/cards/6469187894cace42ab4e9b32
 }
 
 ###
-DELETE  https://week5-77xd.onrender.com/cards/646911bf7c3e077815e8b022
+DELETE  https://jgregoryweek6.onrender.com/cards/646911bf7c3e077815e8b022
 
