@@ -1,0 +1,69 @@
+GET http://localhost:8080/cards
+###
+GET http://localhost:8080/cards/646911bf7c3e077815e8b022
+###
+POST http://localhost:8080/cards
+content-Type: application/json
+
+{
+        "name":"Runeclaw Bear",
+        "power":"2",
+        "toughness": "2",
+        "mana_Cost": "2",
+        "artist": "Jesper Ejsing",
+        "price": ".03",
+        "rarity": "common",
+        "set": "Magic 2012",
+        "rulestext": "n/a",
+        "type": "Creature",
+        "subtype": "Bear"
+}
+
+
+
+
+###
+put http://localhost:8080/cards/6469187894cace42ab4e9b32
+ content-Type: application/json
+
+{
+        "name":"Grizzly Bear",
+        "power":"2",
+        "toughness": "2",
+        "mana_Cost": "2",
+        "artist": "Jesper Ejsing",
+        "price": ".03",
+        "rarity": "common",
+        "set": "Magic 2012",
+        "rulestext": "n/a",
+        "type": "Creature",
+        "subtype": "Bear"
+}
+
+###
+DELETE  http://localhost:8080/cards/646911bf7c3e077815e8b022
+
+
+
+
+###
+GET https://week5-77xd.onrender.com/cards
+###
+GET https://week5-77xd.onrender.com/cards/646911bf7c3e077815e8b022
+###
+POST https://week5-77xd.onrender.com/cards
+content-Type: application/json
+
+{
+        "name":"Runeclaw Bear",
+        "power":"2",
+        "toughness": "2",
+        "mana_Cost": "2",
+        "artist": "Jesper Ejsing",
+        "price": ".03",
+        "rarity": "common",
+        "set": "Magic 2012",
+        "rulestext": "n/a",
+        "type": "Creature",
+        "subtype": "Bear"
+}

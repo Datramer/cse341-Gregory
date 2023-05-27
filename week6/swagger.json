@@ -2,13 +2,13 @@
   "swagger": "2.0",
   "info": {
     "title": "My API",
-    "description": "Temple API",
+    "description": "cardlist",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "week5-77xd.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api-docs": {
@@ -18,7 +18,7 @@
         "responses": {}
       }
     },
-    "/contacts/": {
+    "/cards/": {
       "get": {
         "description": "",
         "produces": [
@@ -40,19 +40,37 @@
             "schema": {
               "type": "object",
               "properties": {
-                "firstName": {
+                "name": {
                   "example": "any"
                 },
-                "lastName": {
+                "power": {
                   "example": "any"
                 },
-                "email": {
+                "toughness": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "mana_Cost": {
                   "example": "any"
                 },
-                "birthday": {
+                "artist": {
+                  "example": "any"
+                },
+                "price": {
+                  "example": "any"
+                },
+                "rarity": {
+                  "example": "any"
+                },
+                "set": {
+                  "example": "any"
+                },
+                "rulestext": {
+                  "example": "any"
+                },
+                "type": {
+                  "example": "any"
+                },
+                "subtype": {
                   "example": "any"
                 }
               }
@@ -60,6 +78,9 @@
           }
         ],
         "responses": {
+          "200": {
+            "description": "OK"
+          },
           "201": {
             "description": "Created"
           },
@@ -69,7 +90,7 @@
         }
       }
     },
-    "/contacts/{id}": {
+    "/cards/{id}": {
       "get": {
         "description": "",
         "produces": [
@@ -104,19 +125,37 @@
             "schema": {
               "type": "object",
               "properties": {
-                "firstName": {
+                "name": {
                   "example": "any"
                 },
-                "lastName": {
+                "power": {
                   "example": "any"
                 },
-                "email": {
+                "toughness": {
                   "example": "any"
                 },
-                "favoriteColor": {
+                "mana_Cost": {
                   "example": "any"
                 },
-                "birthday": {
+                "artist": {
+                  "example": "any"
+                },
+                "price": {
+                  "example": "any"
+                },
+                "rarity": {
+                  "example": "any"
+                },
+                "set": {
+                  "example": "any"
+                },
+                "rulestext": {
+                  "example": "any"
+                },
+                "type": {
+                  "example": "any"
+                },
+                "subtype": {
                   "example": "any"
                 }
               }
@@ -124,27 +163,11 @@
           }
         ],
         "responses": {
+          "200": {
+            "description": "OK"
+          },
           "201": {
             "description": "Created"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          }
-        }
-      },
-      "delete": {
-        "description": "",
-        "parameters": [
-          {
-            "name": "id",
-            "in": "path",
-            "required": true,
-            "type": "string"
-          }
-        ],
-        "responses": {
-          "204": {
-            "description": "No Content"
           },
           "500": {
             "description": "Internal Server Error"

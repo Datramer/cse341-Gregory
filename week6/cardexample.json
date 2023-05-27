@@ -1,0 +1,13 @@
+{
+    "name":"Bitterblossom",
+    "power": "none",
+    "toughness": "none",
+    "mana_Cost": "2",
+    "artist": "Rebecca Guay",
+    "price": "25",
+    "rarity": "rare",
+    "set": "morningtide",
+    "rulestext": "At the beginning of your upkeep, you lose one life and put a 1/1 black faerie rogue creature token with flying into play.",
+    "type": "Tribal Enchantment",
+    "subtype": "Faerie"
+}
