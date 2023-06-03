@@ -74,7 +74,7 @@ const getSingle = async (req, res, next) => {
     };
       const response = await mongodb.getDb().db('cardcollection').collection('cardspecifications').replaceOne({_id: cardId},card);
       if (response .acknowledged) {
-      res.status(201).json(response)
+      res.status(204).json(response)
       } else {
       res.status(500).json(response.error || 'an error occured during creation of contact');
     }
@@ -89,7 +89,7 @@ const getSingle = async (req, res, next) => {
     const response = await mongodb.getDb().db('cardcollection').collection('cardspecifications').deleteOne({ _id: cardId }, true);
     console.log(response);
     if (response.deletedCount > 0) {
-      res.status(204).send();
+      res.status(200).send();
     } else {
       res.status(500).json(response.error || 'error while deleting contact')
     }
