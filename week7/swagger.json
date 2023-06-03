@@ -1,0 +1,201 @@
+{
+  "swagger": "2.0",
+  "info": {
+    "title": "My API",
+    "description": "cardlist",
+    "version": "1.0.0"
+  },
+  "host": "jgregoryweek6.onrender.com",
+  "basePath": "/",
+  "schemes": [
+    "https"
+  ],
+  "paths": {
+    "/api-docs": {
+      "get": {
+        "description": "",
+        "parameters": [],
+        "responses": {}
+      }
+    },
+    "/cards/": {
+      "get": {
+        "description": "",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "post": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "example": "any"
+                },
+                "power": {
+                  "example": "any"
+                },
+                "toughness": {
+                  "example": "any"
+                },
+                "mana_Cost": {
+                  "example": "any"
+                },
+                "artist": {
+                  "example": "any"
+                },
+                "price": {
+                  "example": "any"
+                },
+                "rarity": {
+                  "example": "any"
+                },
+                "set": {
+                  "example": "any"
+                },
+                "rulestext": {
+                  "example": "any"
+                },
+                "type": {
+                  "example": "any"
+                },
+                "subtype": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "201": {
+            "description": "Created"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    },
+    "/cards/{id}": {
+      "get": {
+        "description": "",
+        "produces": [
+          "application/json"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "put": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          },
+          {
+            "name": "body",
+            "in": "body",
+            "schema": {
+              "type": "object",
+              "properties": {
+                "name": {
+                  "example": "any"
+                },
+                "power": {
+                  "example": "any"
+                },
+                "toughness": {
+                  "example": "any"
+                },
+                "mana_Cost": {
+                  "example": "any"
+                },
+                "artist": {
+                  "example": "any"
+                },
+                "price": {
+                  "example": "any"
+                },
+                "rarity": {
+                  "example": "any"
+                },
+                "set": {
+                  "example": "any"
+                },
+                "rulestext": {
+                  "example": "any"
+                },
+                "type": {
+                  "example": "any"
+                },
+                "subtype": {
+                  "example": "any"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "201": {
+            "description": "Created"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      },
+      "delete": {
+        "description": "",
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "type": "string"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "204": {
+            "description": "No Content"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          }
+        }
+      }
+    }
+  }
+}
