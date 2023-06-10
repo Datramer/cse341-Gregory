@@ -107,7 +107,7 @@ DELETE  https://jgregoryweek6.onrender.com/cards/647287f06fbd9342ec8ab524
 ###
 GET http://localhost:8080/stock
 ###
-GET http://localhost:8080/cards/64728964671f48ca8765
+GET http://localhost:8080/stock/64728964678765
 ###
 POST http://localhost:8080/stock
 content-Type: application/json
