@@ -136,7 +136,7 @@ const getSingle = async (req, res, next) => {
   
     
     const createCardStock = async (req, res) => {
-      if (req.body.cardId != null && req.body.cardCondition != null && req.body.set != null  && req.body.Stock != null && req.body.location != null)
+      if (req.body.cardId != null && req.body.cardCondition != null && req.body.Stock != null && req.body.location != null)
       {
       try{
       const card = {
